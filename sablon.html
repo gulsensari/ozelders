@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta charset="utf-8">
+        <title>Özel Ders Web Sitesi</title>
+        <meta name="description" content="Özel Ders Web Sitesi">
+        <meta name="keywords" content="özel,ders,html,css">
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <div id="sayfa">
+        <header id="banner">
+            <div id="logo">
+                <a href="index.html"><img id="foto" src="resim/logo.jpg" 
+                    alt="Özel Ders" title="Özel Ders"></a>
+
+            </div>
+            
+            <div id="sosyal">
+                <a href="#"><img id="ikon" src="resim/face.jpg"></a>
+                <a href="#"><img id="ikon" src="resim/insta.jpg"></a>
+                <a href="#"><img id="ikon" src="resim/whatsapp.png"></a>
+
+            </div>
+
+        </header>
+        <nav id="anamenu">
+            <ul>
+                <li><a href="index.html">Anasayfa</a></li>
+                <li><a href="biz-kimiz.html">Biz Kimiz?</a></li>
+                <li><a href="egitimler.html">Eğitimler</a></li>
+                <li><a href="iletisim.html">İletişim</a></li>
+            </ul>
+        </nav>
+        <article id="icerik">
+            <img class="resim" src="resim/ders.jpg" alt="Ders"
+                title="Ders">
+                
+                <h1 class="baslik"> NEDEN ÖZEL DERS?</h1>
+                <p class="metin">
+                    Öğrenciler eğitim hayatlarında kalabalık sınıflı derslerde ön plana çıkmakta ve gerçek
+                    seviyelerini göstermekte zorlanmaktadır.Eğitimin en önemli faktörü iletişimdir. İletişimi 
+                    yüksek olan öğretmenlerden alınan özel dersler, öğrencilerin başarı seviyelerini çok daha
+                    fazla artırıp, onlara öz güven katmaktadır.</p>
+                <p class="metin"> Öğretmenlerin verdiği özel derslerde, öğrencilerle
+                    birebir ilgilenmesi, sosyal hayatlarında onlara vizyon olması, öğrencinin başarı takibini raporlaması
+                    birçok öğrencinin içindeki devi uyandırmaktadır. 
+                    O yüzden özel ders eğitim hayatında artık bir lüks değil, bir ihtiyaçtır.</p>
+               
+        </article>
+        <aside id="yanmenu">
+            <form class="ders" name="ders" method="get">
+                Ders Seçiniz:
+                <select name="dersler">
+                    <option>Matematik</option>
+                    <option>Fizik</option>
+                    <option>Kimya</option>
+                    <option>Biyoloji</option>
+                    <option>İngilizce</option>
+                </select>
+                <br>
+                <br>
+                Öğretmen Ara:
+                <input type="text" name="ogretmen" size="16">
+                <br>
+                <br>
+                Mesaj:
+                <textarea name="mesaj" cols="17" rows="4"></textarea>
+                <br>
+                <br>
+                <input type="submit">
+                <input type="reset" value="İptal">
+                
+            </form>
+
+        </aside>
+        <footer id="altmenu">
+            <a href="index.html">Anasayfa</a> |
+            <a href="biz-kimiz.html">Ben Kimim?</a> |
+            <a href="egitim.html">Eğitimler</a> |
+            <a href="iletisim.html">İletişim</a>
+            <br>
+            <p class="kucukmetin">Tüm Hakları Saklıdır.</p>
+
+
+        </footer>
+    </div>
+    </body>
+</html>
